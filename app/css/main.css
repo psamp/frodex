@@ -20,7 +20,8 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: white;
   padding: 100px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-bottom: 100px; }
 
 nav {
   height: 100px;

@@ -2,7 +2,6 @@
   
   'use strict';
 
-  var ig = 'https://api.instagram.com/v1/tags/naturalhairstyle/media/recent?client_id=63164feceed04cf39fd05e5230f10e8d';
 
   angular.module('Frodex', ['ngRoute'])
 
