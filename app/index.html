@@ -17,17 +17,19 @@
 </head>
 <body ng-app="Frodex">
 
-  <div class="container">
-
     <nav>
+
     <div class="nav-wrapper">
-      <a href="#/" class="brand-logo"><i class="fa fa-cloud"></i><h1>frodex</h1></a>
-      <ul class="right hide-on-med-and-down">
-      <li><a href="#/about"><i class="fa fa-book"></i></a></li>
+      <li class="brand-logo"><a href="#/"><i class="fa fa-cloud"><span> frodex</span></i></a></li>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#/about"><i class="fa fa-book"></i></a></li>
         <li><a href="/#logout"><i class="fa fa-power-off"></i></a></li>
       </ul>
     </div>
+
   </nav>
+
+  <div class="container" ng-view>
 
   </div>
 

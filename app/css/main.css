@@ -1,37 +1,46 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(0.79, #e040fb));
+  background-image: -o-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: -moz-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: -webkit-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: -ms-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: linear-gradient(to right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 .container {
   font-family: "Open Sans", sans-serif;
-  width: 100%; }
+  background-color: white;
+  padding: 100px;
+  border-radius: 10px; }
 
 nav {
   height: 100px;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  padding-left: 50px;
-  padding-right: 50px;
-  color: white;
-  background: #fb83fa;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fb83fa), color-stop(100%, #e93cec));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
-  /* IE10+ */
-  background: linear-gradient(135deg, #fb83fa 0%, #e93cec 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#e93cec',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
+  margin-bottom: 100px;
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(0.79, #e040fb));
+  background-image: -o-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: -moz-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: -webkit-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: -ms-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-image: linear-gradient(to right bottom, #FFFFFF 0%, #e040fb 79%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  nav .nav-wrapper {
+    width: 100%; }
   nav .brand-logo {
-    font-family: "Nunito", sans-serif;
-    margin: 0; }
-    nav .brand-logo h1 {
+    margin-left: 300px; }
+  nav .hide-on-med-and-down {
+    margin-right: 300px; }
+  nav .brand-logo {
+    font-family: "Nunito", sans-serif; }
+    nav .brand-logo span {
       font-family: "Nunito", sans-serif; }
-    nav .brand-logo .fa .fa-cloud {
-      height: 100px;
-      line-height: 100px; }
