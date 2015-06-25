@@ -30,7 +30,7 @@ gulp.task('watchlist', function() {
   gulp.watch('./app/sass/*.scss',     ['sass']);
   gulp.watch('./bower.json',      ['bower']);
   gulp.watch('./app/index.html',      ['hint:html']);
-  gulp.watch('./app/js/*.js',         ['hint:js']);
+  gulp.watch('./app/js/**/*.js',         ['hint:js']);
 });
 
 //================================================
@@ -51,7 +51,7 @@ gulp.task('webserver', function() {
 //================================================
 
 gulp.task('hint:js', function() {
-  return gulp.src(['./app/js/*.js', '!./app/js/vendor/*'])
+  return gulp.src(['./app/js/*.js', './app/js/**/*.js', '!./app/js/vendor/*'])
     .pipe(notifyError())
     .pipe(jshint())
     .pipe(jshint.reporter('fail'))

@@ -1,0 +1,37 @@
+.container {
+  font-family: "Open Sans", sans-serif;
+  width: 100%; }
+
+nav {
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  background: #fb83fa;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fb83fa), color-stop(100%, #e93cec));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #fb83fa 0%, #e93cec 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #fb83fa 0%, #e93cec 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#e93cec',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  nav .brand-logo {
+    font-family: "Nunito", sans-serif;
+    margin: 0; }
+    nav .brand-logo h1 {
+      font-family: "Nunito", sans-serif; }
+    nav .brand-logo .fa .fa-cloud {
+      height: 100px;
+      line-height: 100px; }
