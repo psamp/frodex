@@ -31,7 +31,7 @@
 
         .when('/', {
           templateUrl: 'js/frodex/user/home.tpl.html',
-          controller: ''
+          controller: 'Login'
         })
 
         .when('/register', {
