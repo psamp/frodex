@@ -39,6 +39,7 @@ body {
   padding:100px;
   border-radius: 10px;
   margin-bottom:100px;
+  color: #888;
 }
 
 nav {
@@ -88,4 +89,11 @@ nav {
 
 .form a {
   color: $w;
+}
+
+h1, h2 {
+  color: $p;
+  text-transform:lowercase;
+  opacity:.7;
+  font-family:$n;
 }

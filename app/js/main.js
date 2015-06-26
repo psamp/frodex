@@ -6,7 +6,7 @@
   angular.module('Frodex', ['ngRoute'])
 
   .constant('PARSE', {
-    URL: 'https://api.parse.com/1/',
+    URL: 'https://api.parse.com/1',
     CONFIG: {
       headers: {
         'X-Parse-Application-Id' : '3j9jaWVMuEl4gG7wrSsIULpmAzsBbhJzLA9ESI8p',
@@ -15,7 +15,7 @@
     }
   })
 
-  .config( [ '$routeProvider',
+  .config( ['$routeProvider',
 
       function ($routeProvider) {
 
@@ -36,6 +36,11 @@
 
         .when('/register', {
           templateUrl: 'js/frodex/user/register.tpl.html',
+          controller: 'Register'
+        })
+
+        .when('/dashboard', {
+          templateUrl: 'js/frodex/codex/dashboard.tpl.html',
           controller: ''
         });
       

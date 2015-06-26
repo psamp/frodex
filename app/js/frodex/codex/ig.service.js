@@ -14,7 +14,7 @@
 
       this.getIgData = function () {
         
-        $http.get(igEndpoint).success( function (data) {
+        return $http.get(igEndpoint).success( function (data) {
           console.log(data);
         });
       

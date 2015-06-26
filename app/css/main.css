@@ -21,7 +21,8 @@ body {
   background-color: white;
   padding: 100px;
   border-radius: 10px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  color: #888; }
 
 nav {
   height: 100px;
@@ -49,3 +50,9 @@ nav {
 
 .form a {
   color: white; }
+
+h1, h2 {
+  color: #e040fb;
+  text-transform: lowercase;
+  opacity: .7;
+  font-family: "Nunito", sans-serif; }
