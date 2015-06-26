@@ -20,7 +20,7 @@
       function ($routeProvider) {
 
         $routeProvider.when('/codex', {
-          templateUrl: 'js/frodex/codex.tpl.html',
+          templateUrl: 'js/frodex/codex/codex.tpl.html',
           controller: ''
         })
 
@@ -30,7 +30,12 @@
         })
 
         .when('/', {
-          templateUrl: 'js/frodex/home.tpl.html',
+          templateUrl: 'js/frodex/user/home.tpl.html',
+          controller: ''
+        })
+
+        .when('/register', {
+          templateUrl: 'js/frodex/user/register.tpl.html',
           controller: ''
         });
       

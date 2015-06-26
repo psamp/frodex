@@ -27,6 +27,7 @@ nav {
   height: 100px;
   width: 100%;
   margin-bottom: 100px;
+  padding-top: 12px;
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(0.79, #e040fb));
   background-image: -o-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
   background-image: -moz-linear-gradient(right bottom, #FFFFFF 0%, #e040fb 79%);
