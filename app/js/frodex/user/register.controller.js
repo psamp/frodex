@@ -15,7 +15,7 @@
 
             $location.path('/');
             $scope.user = {};
-          });
+          }); 
         };
       
       }
