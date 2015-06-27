@@ -42,6 +42,11 @@
         .when('/dashboard', {
           templateUrl: 'js/frodex/codex/dashboard.tpl.html',
           controller: ''
+        })
+
+        .when('/yourhair', {
+          templateUrl: 'js/frodex/codex/yourhair.tpl.html',
+          controller: ''
         });
       
     }

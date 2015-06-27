@@ -22,7 +22,8 @@
 
           }).error( function (data) {
             $scope.showError = true;
-            $scope.errorMssg = data.error + '!';
+            $scope.errorMssg = data.error + '.' + ' register for an account or reload this page and try again.';
+            $location.path('/');
           });
         };
       

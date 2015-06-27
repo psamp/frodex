@@ -40,6 +40,15 @@ body {
   border-radius: 10px;
   margin-bottom:100px;
   color: #888;
+
+  a {
+
+  // color: $p;
+    &:hover {
+      opacity: .4;
+    } 
+
+  }
 }
 
 nav {
@@ -93,6 +102,10 @@ form a {
 
 .login form {
   margin-bottom: 20px;
+
+  a {
+    color:$w;
+  }
 }
 
 

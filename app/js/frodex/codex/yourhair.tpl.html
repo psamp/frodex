@@ -1,0 +1,28 @@
+
+<h2>About Your Fro</h2>
+  <div class="row login" ng-submit="hairInfo(hair)">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input type="text" ng-model="hair.type">
+          <label for="Type ( 3A - 4C)">Type ( 3A - 4C)</label>
+        </div>
+        <div class="input-field col s6">
+          <input type="text" class="validate" ng-model="hair.porosity">
+          <label for="Porosity (Low, Medium, High)">Porosity (Low, Medium, High)</label>
+        </div>
+        <div class="input-field col s6">
+          <input type="text" id="dyed" class="validate" ng-model="hair.dyed">
+          <label for="dyed">Dyed (yes or no?</label>
+        </div>
+        <div class="input-field col s6">
+          <input type="text" id="np_s" class="validate" ng-model="hair.dyed">
+          <label for="np_s">No-poo or shampoo?</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="abouthair" class="materialize-textarea"></textarea>
+          <label for="abouthair">Products that work, other info, etc.</label>
+      </div>
+      <button type="submit" class="waves-effect waves-light btn">Submit</button>
+    </form>
+  </div>

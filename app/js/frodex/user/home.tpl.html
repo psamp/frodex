@@ -8,12 +8,12 @@
           <label for="username">Username</label>
         </div>
         <div class="input-field col s12">
-          <input type="password" class="validate" id="password" ng-model="user.password">
+          <input type="password" id="password" ng-model="user.password">
           <label for="password">Password</label>
         </div>
       </div>
       <button type="submit" class="waves-effect waves-light btn">Login</button>
       <a class="waves-effect waves-light btn" href="/#register">Register</a>
     </form>
-    <h4 ng-show="showError">{{ errorMssg }}</h4>
+    <h6 ng-show="showError">{{ errorMssg }}</h6>
   </div>
